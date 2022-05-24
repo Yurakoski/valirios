@@ -8,11 +8,6 @@ body {
   width: 100%;
   min-height: 100vh; }
 
-footer {
-  background-color: red;
-  width: 100%;
-  margin-top: auto; }
-
 .navbar {
   background-color: #393186; }
 
@@ -30,3 +25,11 @@ footer {
   font-size: 1.1rem;
   padding-left: 3rem;
   padding-right: 3rem; }
+
+video {
+  width: 100%; }
+
+footer {
+  background-color: red;
+  width: 100%;
+  margin-top: auto; }
