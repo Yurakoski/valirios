@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="cabecera bg-black">
        <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,19 +19,19 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>Inicio</b></a>
+                <a class="nav-link active" aria-current="page" href="/index.html#videoInicio">Inicio</a>
               </li>
               <li class="nav-item dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html#sobreNosotros">Sobre nosotros</a>
+                </li>
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Galería de imágenes</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="./paginas/productos.html#vinilos">Ensayos</a></li>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="">Ensayos</a></li>
                   <li><a class="dropdown-item" href="./paginas/productos.html#llaveros">Grabaciones</a></li>
                   <li><a class="dropdown-item" href="./paginas/productos.html#remeras">Sala</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./paginas/servicios.html">Sobre nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
@@ -44,9 +44,22 @@
 
   <main>
     <section>
-      <video width="100%" autoplay mute loop>
+      <video id="videoInicio" autoplay muted loop>
         <source src="./imagenes/video1.mp4" type="video/mp4">
         </video>
+    </section>
+    <section class="bg-black text-center" id="sobreNosotros">
+      <h2>SOBRE NOSOTROS</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere voluptatem suscipit delectus nisi, perspiciatis sit est ipsam mollitia iusto, commodi esse fugiat. Aperiam repellendus modi quia deleniti ab dolore.
+      Fugit neque sit quia perferendis, nulla cupiditate architecto temporibus qui ullam ipsam facilis, vero quas dolore dolores modi similique deserunt nobis? Sapiente non sequi soluta placeat. Pariatur non voluptate cum.
+      Ratione assumendaum quae, eveniet, vitae fugiat! Veniam voluptatem placeat omnis.
+      ipisci distinctio veritatis, corporis amet deserunt harum tenetur qui earum soluta, porro aperiam reiciendis repudiandae, enim quasi tempora.
+      Voluptates, fuga eveniet iusto totam accusantium harum culpa ullam? Error soluta similique nam cum, ipsam quae, explicabo aspernatur vel voluptatum neque, alias natus excepturi possimus. Repellat expedita cumque optio molestias!
+      Earum a inventore error reprehenderit saepe odit dolores aut debitis corrupti explicabo ea nam eveniet dicta nisi magni quibusdam veniam, vitae iste adipisci impedit harum, dolorem nobis facere? Impedit, recusandae!
+      Molestiae, vel, voluptate deleniti animi accusantium aperiam nulla delectus tempore alias voluptates earum architecto esse, possimus itaque reiciendis iure inventore. Consequuntur modi incidunt nemo minus, in iure ullam provident odit!
+      Praesentium voluptate enim ipsa asperiores ea dolores libero, culpa est iure possimus earum beatae dolor animi voluptatem quae error quibusdam consequuntur voluptatum accusantium sunt voluptas? Nemo tempora obcaecati id recusandae!
+      Iure hic accusamus minus, vel sit in nam deserunt! Aspernatur cumque tenetur nesciunt veniam labore optio numquam nihil, officia odio commodi aperiam et, maxime ad. Et vel ipsum veritatis ullam.
+      Quidem aspernatur sapiente rem laborum cumque cupiditate amet at voluptatum! Perspiciatis sed magni quisquam laborum cumque modi repudiandae culpa voluptatum ut. Fugit enim qui exercitationem cum, quia atque neque excepturi?</p>
     </section>
   </main>
 
