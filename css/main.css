@@ -10,6 +10,9 @@ body {
   width: 100%;
   min-height: 100vh; }
 
+.navbar-light .navbar-toggler {
+  background-color: #b1b1b1; }
+
 .navbar {
   background-color: #393186; }
 
@@ -33,7 +36,8 @@ body {
   width: 100%; }
 
 #nombreBanda {
-  margin-top: 7rem; }
+  margin-top: 7rem;
+  padding: 2rem; }
 
 video {
   width: 100%;
