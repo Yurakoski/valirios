@@ -1,13 +1,14 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
+  background-color: black;
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
-  background: black; }
+  min-height: 100vh; }
 
 .navbar {
   background-color: #393186; }
@@ -31,9 +32,12 @@ body {
   position: fixed;
   width: 100%; }
 
+#nombreBanda {
+  margin-top: 7rem; }
+
 video {
   width: 100%;
-  padding-top: 56px; }
+  padding-top: 4rem; }
 
 p {
   color: white;
