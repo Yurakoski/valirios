@@ -35,10 +35,6 @@ body {
   position: fixed;
   width: 100%; }
 
-#nombreBanda {
-  margin-top: 7rem;
-  padding: 2rem; }
-
 video {
   width: 100%;
   padding-top: 4rem; }
