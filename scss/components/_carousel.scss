@@ -1,3 +1,9 @@
 #galeriaImagenes{
     width: 30%;
+}   
+
+@media only screen and (max-width: 720px) {
+    #galeriaImagenes{
+        width: 90%;
+    }
 }

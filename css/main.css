@@ -23,7 +23,7 @@ h3 {
   color: white; }
 
 .navbar {
-  background-color: #383838; }
+  background-color: black; }
 
 .navbar-light .navbar-nav .nav-link {
   color: white; }
@@ -50,8 +50,8 @@ h3 {
   padding-bottom: 1rem;
   background-color: black; }
 
-video {
-  height: 100vh; }
+#videoInicio {
+  width: 100%; }
 
 p {
   color: white;
@@ -63,6 +63,10 @@ h2 {
 
 #galeriaImagenes {
   width: 30%; }
+
+@media only screen and (max-width: 720px) {
+  #galeriaImagenes {
+    width: 90%; } }
 
 footer {
   background-color: red;
