@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(57, 49, 134);  
+    background-color: rgb(56, 56, 56);  
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -23,5 +23,12 @@
 
 .cabecera{
     position: fixed;
+    z-index: 1;
     width: 100%;
+}
+
+.containerLogo{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background-color: black;
 }

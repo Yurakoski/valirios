@@ -12,9 +12,9 @@
 
 <body>
   <header class="cabecera bg-black">
-       <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -41,15 +41,19 @@
           </div>
         </div>
       </nav>
-  </header>
-  
-  <main>
-    <section class="presentacion">
-    <div class="contenedorVideo">
-      <video id="videoInicio" autoplay muted loop>
-        <source src="./imagenes/video1.mp4" type="video/mp4">
+    </header>
+    
+    <main>
+      <div class="containerLogo text-center">
+        <img src="./imagenes/nombre.jpeg" width="50%" alt="Logo de la banda">
+      </div>
+
+      <section class="presentacion centrado">
+      <div class="contenedorVideo">
+        <video id="videoInicio" autoplay muted loop>
+          <source src="./imagenes/video1.mp4" type="video/mp4">
         </video>
-    </div>
+      </div>
     </section>
 
 
@@ -81,6 +85,38 @@
       Quidem aspernatur sapiente rem laborum cumque cupiditate amet at voluptatum! Perspiciatis sed magni quisquam laborum cumque modi repudiandae culpa voluptatum ut. Fugit enim qui exercitationem cum, quia atque neque excepturi?</p>
     </div></div>
     </section>
+
+    <section class="centrado pb-5">
+      <h2>GALERÍA</h2>
+      <h3>Integrantes</h3>
+    <div id="galeriaImagenes" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./imagenes/baterista2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/guitarrista.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/bajista.jpg" class="d-block w-100" alt="...">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#galeriaImagenes" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#galeriaImagenes" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </section>
+
   </main>
 
   <footer>

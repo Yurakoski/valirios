@@ -13,8 +13,17 @@ body {
 .navbar-light .navbar-toggler {
   background-color: #b1b1b1; }
 
+.centrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+h3 {
+  color: white; }
+
 .navbar {
-  background-color: #393186; }
+  background-color: #383838; }
 
 .navbar-light .navbar-nav .nav-link {
   color: white; }
@@ -33,11 +42,16 @@ body {
 
 .cabecera {
   position: fixed;
+  z-index: 1;
   width: 100%; }
 
+.containerLogo {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  background-color: black; }
+
 video {
-  width: 100%;
-  padding-top: 4rem; }
+  height: 100vh; }
 
 p {
   color: white;
@@ -46,6 +60,9 @@ p {
 h2 {
   padding-top: 7rem;
   color: white; }
+
+#galeriaImagenes {
+  width: 30%; }
 
 footer {
   background-color: red;
