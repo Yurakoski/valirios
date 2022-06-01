@@ -21,14 +21,14 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
               </li>
               <li class="nav-item dropdown">
                 <li class="nav-item">
-                  <a class="nav-link" href="#sobreNosotros">Sobre nosotros</a>
+                  <a class="nav-link" href="#sobreNosotros">SOBRE NOSOTROS</a>
                 </li>
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Galería de imágenes</a>
+                  GALERÍA</a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="./index.html#carousel">Ensayos</a></li>
                   <li><a class="dropdown-item" href="./paginas/productos.html#llaveros">Grabaciones</a></li>
@@ -36,7 +36,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                <a class="nav-link" href="./paginas/contacto.html">CONTACTO</a>
               </li>
             </ul>
           </div>
@@ -45,11 +45,12 @@
     </header>
     
     <main>
+      <!--
       <div class="containerLogo text-center">
         <img src="./imagenes/nombre.jpeg" width="50%" alt="Logo de la banda">
       </div>
-
-      <section class="presentacion">
+-->
+      <section>
       <div class="contenedorVideo">
         <video id="videoInicio" autoplay muted loop>
           <source src="./imagenes/video1.mp4" type="video/mp4">
@@ -61,6 +62,7 @@
     <section id="sobreNosotros">
       <div class="bg-black text-center">
        <h2 class="pb-5">SOBRE NOSOTROS</h2>
+       </div>
        <div class="textoInicial centrado">
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere voluptatem suscipit delectus nisi, perspiciatis sit est ipsam mollitia iusto, commodi esse fugiat. Aperiam repellendus modi quia deleniti ab dolore.
       Fugit neque sit quia perferendis, nulla cupiditate architecto temporibus qui ullam ipsam facilis, vero quas dolore dolores modi similique deserunt nobis? Sapiente non sequi soluta placeat. Pariatur non voluptate cum.
@@ -68,12 +70,13 @@
       ipisci distinctio viure possimus earum beatae dolor animi voluptatem quae error quibusdam consequuntur voluptatum accusantium sunt voluptas? Nemo tempora obcaecati id recusandae!
       Iure hic accusamus minus, vel sit in nam deserunt! Aspernaturur cumque tenetur nesciunt veniam labore optio numquam nihil, officia odio commodi aperiam et, maxime ad. Et vel ipsum veritatis ullam.
       Quidem aspernatur sapiente rem laborum cumque cupiditate amet at voluptatum! Perspiciatis sed magni quisquam laborum cumque modi repudiandae culpa voluptatum ut. Fugit enim qui exercitationem cum, quia atque neque excepturi?</p>
-    </div></div>
+    </div>
     </section>
 
-    <section id="carousel" class="centrado pb-5">
-      <h2 class="pb-5">GALERÍA</h2>
-    <div id="galeriaImagenes" class="carousel slide" data-bs-ride="true">
+    <section id="carousel">
+      <h2 class="text-center pb-5 mt-2">GALERÍA</h2>
+    <div class="centrado pb-2">
+    <div id="galeriaImagenes" class="carousel slide centrado" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -99,6 +102,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+</div>
   </section>
 
   </main>

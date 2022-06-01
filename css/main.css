@@ -60,6 +60,10 @@ h3 {
 #videoInicio {
   width: 100%; }
 
+.contenedorVideo {
+  padding-top: 4rem;
+  width: 100%; }
+
 p {
   color: white;
   font-size: 1.2rem;
@@ -68,13 +72,13 @@ p {
 
 h2 {
   padding-top: 4rem;
-  color: white; }
+  color: white;
+  background-color: #3d3d3d; }
 
 .textoInicial {
   background-image: url(../../imagenes/fondo2.jpeg);
   min-height: 100vh;
   background-position: center center;
-  background-attachment: fixed;
   background-size: cover; }
 
 #galeriaImagenes {
