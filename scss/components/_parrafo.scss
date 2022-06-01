@@ -1,9 +1,19 @@
 p{
     color: white;
-    padding-top: 5rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.507);
+
 }
 
 h2{
     padding-top: 7rem;
     color: white;
+}
+
+.textoInicial{
+    background-image: url(../../imagenes/fondo2.jpeg);
+    min-height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
