@@ -75,7 +75,7 @@ h2 {
   color: white;
   background-color: #3d3d3d; }
 
-.textoInicial {
+.fondoPrincipal {
   background-image: url(../../imagenes/fondo2.jpeg);
   min-height: 100vh;
   background-position: center center;
