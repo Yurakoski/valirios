@@ -51,19 +51,21 @@
       </div>
 -->
       <section>
-      <div class="contenedorVideo">
+      <div class="contenedorVideo centrado">
         <video id="videoInicio" autoplay muted loop>
           <source src="./imagenes/video1.mp4" type="video/mp4">
         </video>
       </div>
     </section>
 
-
     <section id="sobreNosotros">
-      <div class="bg-black text-center">
-       <h2 class="pb-5">SOBRE NOSOTROS</h2>
-       </div>
-       <div class="fondoPrincipal centrado">
+      <div class="bg-gradient text-center">
+        <h2 class="pt-5 pb-5">ValirioS</h2>
+      </div>
+        <div class="integrantesFoto centrado">
+          <img src="./imagenes/integrantes.jpeg" width="100%">
+        </div>
+       <div class="fondoPrincipal centrado pt-4">
        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere voluptatem suscipit delectus nisi, perspiciatis sit est ipsam mollitia iusto, commodi esse fugiat. Aperiam repellendus modi quia deleniti ab dolore.
       Fugit neque sit quia perferendis, nulla cupiditate architecto temporibus qui ullam ipsam facilis, vero quas dolore dolores modi similique deserunt nobis? Sapiente non sequi soluta placeat. Pariatur non voluptate cum.
       Ratione assumendaum quae, eveniet, vitae fugiat! Veniam voluptatem placeat omnis.
@@ -74,7 +76,7 @@
     </section>
 
     <section id="carousel">
-      <h2 class="text-center pb-5 mt-2">GALERÍA</h2>
+      <h2 class="bg-gradient text-center pb-5 pt-5">GALERÍA</h2>
     <div class="centrado pb-2">
     <div id="galeriaImagenes" class="carousel slide centrado" data-bs-ride="true">
       <div class="carousel-indicators">
@@ -103,6 +105,28 @@
     </button>
   </div>
 </div>
+  </section>
+
+  <section>
+    <div class="bg-gradient text-center">
+      <h2 class="pt-5 pb-5">Contacto</h2>
+      </div>
+    <div class="fondoContacto container-fluid centrado p-2">
+      <div class="col-lg-9 col-md-9 col-sm-11">
+        <div class="parrafoInicial fondoOpaco bordeRedondeado">
+          <form action="https://formspree.io/f/xeqnvbgl" method="POST" class="formulario text-center mt-3 mb-5">
+            <h4 class="pt-4">Formulario de contacto:</h4>
+              <input class="formulario__item mt-5" name="nombre" type="text" placeholder="Nombre"><br>
+              <input class="formulario__item" name="telefono" type="tel" placeholder="Teléfono"><br>
+              <input class="formulario__item" name="mail" type="email" placeholder="Email"><br>
+              <input class="formulario__item--mensaje" name="mensaje" type="text" placeholder="Mensaje..."><br>
+              <button class="botonEnviar mt-5 bordeRedondeado">Enviar</button>
+          </form>
+    
+          </div>
+        </div>
+      </div>
+ 
   </section>
 
   </main>
