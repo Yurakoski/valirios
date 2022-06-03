@@ -12,7 +12,6 @@
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: white;
-    text-decoration: underline
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active {
@@ -34,7 +33,6 @@
     position: fixed;
     z-index: 1;
     width: 100%;
-    border-bottom: solid 1px rgb(75, 75, 75);
 }
 
 .containerLogo{
@@ -42,3 +40,38 @@
     padding-bottom: 1rem;
     background-color: black;
 }
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .menu a:hover::before {
+    transform: scaleX(1);
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin-right: 70px;
+  }
+  
+  .menu a {
+    position: relative;
+    display: block;
+    padding: 5px;
+  }
+  .menu[data-animation="center"] a::before {
+    transform-origin: center;
+  }
