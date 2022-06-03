@@ -1,4 +1,4 @@
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 480px) {
     #videoInicio{
         width: 100%;
     }
@@ -8,6 +8,20 @@
     }
 
     #galeriaImagenes{
-        width: 90%;
+        width: 100%;
+    }
+    
+    .formulario{
+        .formulario__item {
+            width: 80%;
+        }
+        .formulario__item--mensaje{
+            width: 80%;
+            padding-bottom: 5rem;
+        }     
+    }
+    
+    .botonEnviar{
+        width: 80%;
     }
 }

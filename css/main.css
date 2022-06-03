@@ -1,11 +1,3 @@
-@media only screen and (max-width: 720px) {
-  #videoInicio {
-    width: 100%; }
-  .integrantesFoto img {
-    width: 100%; }
-  #galeriaImagenes {
-    width: 90%; } }
-
 * {
   margin: 0;
   padding: 0;
@@ -99,7 +91,8 @@ h3, h4 {
   transform-origin: center; }
 
 #videoInicio {
-  width: 80%; }
+  width: 80%;
+  margin-bottom: 5rem; }
 
 .contenedorVideo {
   padding-top: 4rem;
@@ -125,7 +118,8 @@ p {
   background-size: cover; }
 
 #galeriaImagenes {
-  width: 30%; }
+  width: 30%;
+  padding-bottom: 4rem; }
 
 .fondoContacto {
   background-image: url(../imagenes/microfono.jpg);
@@ -137,14 +131,14 @@ p {
   padding: 1rem; }
   .formulario .formulario__item {
     margin-bottom: 1rem;
-    width: 20rem;
+    width: 100%;
     height: 2rem; }
   .formulario .formulario__item--mensaje {
-    width: 20rem;
+    width: 100%;
     padding-bottom: 5rem; }
 
 .botonEnviar {
-  width: 15rem;
+  width: 100%;
   font-size: 1rem;
   height: 3rem;
   background-color: #9c9c9c;
@@ -168,3 +162,18 @@ footer {
     .listaFooter li a {
       color: white;
       text-decoration: none; }
+
+@media only screen and (max-width: 480px) {
+  #videoInicio {
+    width: 100%; }
+  .integrantesFoto img {
+    width: 100%; }
+  #galeriaImagenes {
+    width: 100%; }
+  .formulario .formulario__item {
+    width: 80%; }
+  .formulario .formulario__item--mensaje {
+    width: 80%;
+    padding-bottom: 5rem; }
+  .botonEnviar {
+    width: 80%; } }
