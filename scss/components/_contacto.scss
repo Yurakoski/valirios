@@ -1,5 +1,5 @@
 .fondoContacto{
-    background-image: url(../../imagenes/microfono.jpg);
+    background-image: url(../imagenes/microfono.jpg);
     min-height: 100vh;
     background-position: center center;
     background-size: cover;
@@ -16,8 +16,7 @@
         .formulario__item--mensaje{
             width: 20rem;
             padding-bottom: 5rem;
-        }
-        
+        }     
 }
 
 .botonEnviar{
