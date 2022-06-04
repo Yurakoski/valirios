@@ -83,7 +83,8 @@ h3, h4 {
   transform-origin: center; }
 
 #videoInicio {
-  width: 40%; }
+  width: 40%;
+  height: 100vh; }
 
 .contenedorVideo {
   padding-top: 4rem;
@@ -117,6 +118,9 @@ p {
   min-height: 100vh;
   background-position: center center;
   background-size: cover; }
+
+form {
+  width: 40%; }
 
 .formulario {
   padding: 1rem; }
@@ -154,12 +158,18 @@ footer {
       color: white;
       text-decoration: none; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   #videoInicio {
     width: 100%; }
+  form {
+    width: 60%; } }
+
+@media only screen and (max-width: 480px) {
   .integrantesFoto img {
     width: 100%; }
   #galeriaImagenes {
+    width: 100%; }
+  form {
     width: 100%; }
   .formulario .formulario__item {
     width: 80%; }

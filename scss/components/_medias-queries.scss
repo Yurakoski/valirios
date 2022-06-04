@@ -1,8 +1,14 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px){
     #videoInicio{
         width: 100%;
+      }
+    form{
+        width: 60%;
     }
+    
+}
 
+@media only screen and (max-width: 480px) {
     .integrantesFoto img {
         width: 100%;
     }
@@ -11,6 +17,10 @@
         width: 100%;
     }
     
+    form{
+        width: 100%;
+    }
+
     .formulario{
         .formulario__item {
             width: 80%;
@@ -20,6 +30,7 @@
             padding-bottom: 5rem;
         }     
     }
+
     
     .botonEnviar{
         width: 80%;
