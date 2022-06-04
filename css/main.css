@@ -54,11 +54,6 @@ h3, h4 {
   z-index: 1;
   width: 100%; }
 
-.containerLogo {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
-  background-color: black; }
-
 .menu a::before {
   content: '';
   position: absolute;
@@ -78,9 +73,6 @@ h3, h4 {
 .menu {
   display: flex;
   justify-content: center; }
-
-.menu li {
-  margin-right: 70px; }
 
 .menu a {
   position: relative;

@@ -35,12 +35,6 @@
     width: 100%;
 }
 
-.containerLogo{
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-    background-color: black;
-}
-
 .menu a::before {
     content: '';
     position: absolute;
@@ -62,11 +56,7 @@
     display: flex;
     justify-content: center;
   }
-  
-  .menu li {
-    margin-right: 70px;
-  }
-  
+
   .menu a {
     position: relative;
     display: block;
