@@ -1,6 +1,7 @@
-.navbar{
-    background-color: black;  
+header .navbar{
+  background-color: rgba(0, 0, 0, 0.726);
 }
+
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -29,6 +30,21 @@
     padding-right: 3rem;
 }
 
+.dropdown-menu.show {
+  background-color: rgba(0, 0, 0, 0.726);
+  top: 2.5rem;
+  padding: 0.5rem;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
 .cabecera{
     position: fixed;
     z-index: 1;
@@ -45,13 +61,14 @@
     background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
     z-index: 1;
     transform: scaleX(0);
-    transform-origin: left;
+    transform-origin: center;
     transition: transform 0.5s ease-in-out;
   }
   
   .menu a:hover::before {
     transform: scaleX(1);
   }
+
   .menu {
     display: flex;
     justify-content: center;
