@@ -112,7 +112,7 @@ header .navbar {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
-p {
+#sobreNosotros p {
   color: white;
   font-size: 1.2rem;
   padding: 2rem;
@@ -187,10 +187,13 @@ footer {
   #inicio {
     height: 100vh; }
   .nombre img {
-    width: 80%; }
+    width: 80%;
+    padding-top: 9rem; }
   .integrantesFoto img {
-    padding-top: 6rem;
+    padding-top: 4rem;
     width: 100%; }
+  #sobreNosotros .subtitulo {
+    margin-top: 6rem; }
   #galeriaIntegrantes, #galeriaEnsayos, #galeriaSala {
     width: 100%;
     padding-top: 2rem; }

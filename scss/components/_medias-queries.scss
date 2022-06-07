@@ -19,18 +19,22 @@
     }
     .nombre img{
         width: 80%;
+        padding-top: 9rem;
     }
     
     .integrantesFoto img {
-        padding-top: 6rem;
+        padding-top: 4rem;
         width: 100%;
+    }
+
+    #sobreNosotros .subtitulo{
+        margin-top: 6rem;
     }
 
     #galeriaIntegrantes, #galeriaEnsayos, #galeriaSala{
         width: 100%;
         padding-top: 2rem;
     }
-    
 
     form{
         width: 100%;
