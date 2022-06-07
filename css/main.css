@@ -188,12 +188,14 @@ footer {
     height: 100vh; }
   .nombre img {
     width: 80%;
-    padding-top: 9rem; }
+    padding-top: 5rem; }
   .integrantesFoto img {
-    padding-top: 4rem;
+    padding-top: 7rem;
     width: 100%; }
   #sobreNosotros .subtitulo {
     margin-top: 6rem; }
+  #galeriaIntegrantes {
+    margin-top: 3rem; }
   #galeriaIntegrantes, #galeriaEnsayos, #galeriaSala {
     width: 100%;
     padding-top: 2rem; }
