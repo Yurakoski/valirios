@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav menu">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              <a class="nav-link active" aria-current="page" href="./index.html#inicio">INICIO</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./index.html#sobreNosotros">SOBRE NOSOTROS</a>
@@ -30,9 +30,9 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 GALERÍA</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./index.html#carousel">Integrantes</a></li>
-                <li><a class="dropdown-item" href="./index.html#carousel">Ensayos</a></li>
-                <li><a class="dropdown-item" href="./index.html#carousel">Sala</a></li>
+                <li><a class="dropdown-item" href="./index.html#galeriaIntegrantes">Integrantes</a></li>
+                <li><a class="dropdown-item" href="./index.html#galeriaEnsayos">Ensayos</a></li>
+                <li><a class="dropdown-item" href="./index.html#galeriaSala">Sala</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -58,14 +58,19 @@
       </div>
     </section>
 
-    <section id="sobreNosotros">
-      <div class="bg-gradient text-center">
-        <h2 class="pt-5 pb-5">ValirioS</h2>
+    <section id="inicio">
+      <div class="nombre text-center">
+        <img src="./imagenes/nombre.jpeg" alt="">
       </div>
         <div class="integrantesFoto centrado">
           <img src="./imagenes/integrantes.jpeg" width="100%">
         </div>
+        </section>
+
+        <section id="sobreNosotros">
+        
        <div class="fondoPrincipal centrado pt-4">
+        <h2 class="text-center pb-5 pt-2">SOBRE NOSOTROS</h2>
        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere voluptatem suscipit delectus nisi, perspiciatis sit est ipsam mollitia iusto, commodi esse fugiat. Aperiam repellendus modi quia deleniti ab dolore.
       Fugit neque sit quia perferent! Veniam voluptatem placeat omnis.
       ipisci distinctio viure possimus earum beatae dolor animi voluptatem quae error quibusdam consequuntur voluptatum accusantium sunt voluptas? Nemo tempora obcaecati id recusandae!
@@ -75,14 +80,14 @@
     </div>
     </section>
 
-    <section id="carousel">
+    <section>
       <h2 class="bg-gradient text-center pb-5 pt-5">GALERÍA</h2>
     <div class="centrado pb-2">
-    <div id="galeriaImagenes" class="carousel slide centrado" data-bs-ride="true">
+    <div id="galeriaIntegrantes" class="carousel slide centrado" data-bs-ride="true">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#galeriaImagenes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#galeriaIntegrantes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#galeriaIntegrantes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#galeriaIntegrantes" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
     <div class="carousel-inner">
     <div class="carousel-item active">
@@ -95,11 +100,11 @@
       <img src="./imagenes/bajista.jpg" class="d-block w-100" alt="...">
     </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#galeriaImagenes" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#galeriaIntegrantes" data-bs-slide="prev">
        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
        <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#galeriaImagenes" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#galeriaIntegrantes" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -107,10 +112,74 @@
 </div>
   </section>
 
+  <section>
+  <div class="centrado pb-2">
+  <div id="galeriaEnsayos" class="carousel slide centrado" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#galeriaEnsayos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#galeriaEnsayos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#galeriaEnsayos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="./imagenes/baterista2.jpg" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="./imagenes/guitarrista.jpg" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="./imagenes/bajista.jpg" class="d-block w-100" alt="...">
+  </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#galeriaEnsayos" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#galeriaEnsayos" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="centrado pb-2">
+<div id="galeriaSala" class="carousel slide centrado" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#galeriaIntmagenes3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#galeriaIntmagenes3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#galeriaIntmagenes3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <img src="./imagenes/baterista2.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="./imagenes/guitarrista.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="./imagenes/bajista.jpg" class="d-block w-100" alt="...">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#galeriaSala" data-bs-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#galeriaSala" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</section>
+
+
   <section id="contacto">
     <div class="fondoContacto centrado p-2">
           <form action="https://formspree.io/f/xeqnvbgl" method="POST" class="formulario text-center mt-3 mb-5">
-            <h4 class="pt-4">CONTACTO</h4>
+            <h2 class="text-center pb-5 pt-5">CONTACTO</h2>
               <input class="formulario__item mt-5" name="nombre" type="text" placeholder="Nombre"><br>
               <input class="formulario__item" name="telefono" type="tel" placeholder="Teléfono"><br>
               <input class="formulario__item" name="mail" type="email" placeholder="Email"><br>

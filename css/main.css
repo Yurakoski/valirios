@@ -19,6 +19,10 @@ body {
   justify-content: center;
   align-items: center; }
 
+.nombre img {
+  width: 50%;
+  padding-top: 4rem; }
+
 h2 {
   color: white; }
 
@@ -121,8 +125,9 @@ p {
   background-position: center center;
   background-size: cover; }
 
-#galeriaImagenes {
+#galeriaIntegrantes, #galeriaEnsayos, #galeriaSala {
   width: 30%;
+  padding-top: 4rem;
   padding-bottom: 4rem; }
 
 .fondoContacto {
@@ -179,10 +184,16 @@ footer {
     width: 60%; } }
 
 @media only screen and (max-width: 480px) {
+  #inicio {
+    height: 100vh; }
+  .nombre img {
+    width: 80%; }
   .integrantesFoto img {
+    padding-top: 6rem;
     width: 100%; }
-  #galeriaImagenes {
-    width: 100%; }
+  #galeriaIntegrantes, #galeriaEnsayos, #galeriaSala {
+    width: 100%;
+    padding-top: 2rem; }
   form {
     width: 100%; }
   .formulario .formulario__item {

@@ -13,14 +13,25 @@
 }
 
 @media only screen and (max-width: 480px) {
+
+    #inicio{
+        height: 100vh;
+    }
+    .nombre img{
+        width: 80%;
+    }
+    
     .integrantesFoto img {
+        padding-top: 6rem;
         width: 100%;
     }
 
-    #galeriaImagenes{
+    #galeriaIntegrantes, #galeriaEnsayos, #galeriaSala{
         width: 100%;
+        padding-top: 2rem;
     }
     
+
     form{
         width: 100%;
     }
