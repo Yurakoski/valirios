@@ -29,6 +29,10 @@ h2 {
 h3, h4 {
   color: white; }
 
+.subtitulo {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
 header .navbar {
   background-color: rgba(0, 0, 0, 0.726); }
 
@@ -67,7 +71,7 @@ header .navbar {
 
 .cabecera {
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   width: 100%; }
 
 .menu a::before {
@@ -116,7 +120,9 @@ header .navbar {
   color: white;
   font-size: 1.2rem;
   padding: 2rem;
+  margin-bottom: 8rem;
   background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 0.8rem;
   width: 70%; }
 
 .fondoPrincipal {
@@ -137,7 +143,7 @@ header .navbar {
   background-size: cover; }
 
 form {
-  width: 40%; }
+  width: 30%; }
 
 .formulario {
   padding: 1rem; }
