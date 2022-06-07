@@ -107,7 +107,7 @@ header .navbar {
   width: 100%; }
 
 .integrantesFoto img {
-  width: 80%;
+  width: 70%;
   height: auto;
   padding-top: 2rem;
   padding-bottom: 2rem; }
@@ -117,7 +117,7 @@ header .navbar {
   font-size: 1.2rem;
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.692);
-  width: 80%; }
+  width: 70%; }
 
 .fondoPrincipal {
   background-image: url(../imagenes/wall.jpg);
@@ -188,17 +188,21 @@ footer {
     height: 100vh; }
   .nombre img {
     width: 80%;
-    padding-top: 5rem; }
+    padding-top: 6rem;
+    padding-bottom: 2rem; }
   .integrantesFoto img {
-    padding-top: 7rem;
+    padding-top: 4rem;
     width: 100%; }
-  #sobreNosotros .subtitulo {
-    margin-top: 6rem; }
-  #galeriaIntegrantes {
-    margin-top: 3rem; }
+  .subtitulo {
+    padding-top: 6rem; }
+  #sobreNosotros p {
+    font-size: 1rem;
+    margin-top: 5rem;
+    padding: 1rem 0.4rem 1rem 0.4rem;
+    width: 85%; }
   #galeriaIntegrantes, #galeriaEnsayos, #galeriaSala {
     width: 100%;
-    padding-top: 2rem; }
+    padding-top: 5rem; }
   form {
     width: 100%; }
   .formulario .formulario__item {
