@@ -19,10 +19,6 @@ body {
   justify-content: center;
   align-items: center; }
 
-.nombre img {
-  width: 50%;
-  padding-top: 4rem; }
-
 h2 {
   color: white; }
 
@@ -41,6 +37,9 @@ h3, h4 {
     color: white;
     font-size: 2rem;
     padding-bottom: 5rem; }
+
+#inicio {
+  min-height: 100vh; }
 
 header .navbar {
   background-color: rgba(0, 0, 0, 0.726); }
@@ -118,11 +117,18 @@ header .navbar {
   padding-top: 2rem;
   width: 100%; }
 
+.nombre img {
+  width: 50%;
+  padding-top: 4rem; }
+
 .integrantesFoto img {
   width: 70%;
   height: auto;
   padding-top: 2rem;
   padding-bottom: 2rem; }
+
+.logoValirios img {
+  display: none; }
 
 #sobreNosotros p {
   color: white;
@@ -206,14 +212,16 @@ ul {
 
 @media only screen and (max-width: 480px) {
   #inicio {
-    height: 100vh; }
+    min-height: 100vh; }
   .nombre img {
     width: 85%;
     padding-top: 6rem;
     padding-bottom: 2rem; }
   .integrantesFoto img {
-    padding-top: 4rem;
     width: 100%; }
+  .logoValirios img {
+    width: 30%;
+    display: block; }
   .subtitulo {
     padding-top: 6rem; }
   #sobreNosotros p {
