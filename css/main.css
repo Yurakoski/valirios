@@ -220,8 +220,10 @@ ul {
   .integrantesFoto img {
     width: 100%; }
   .logoValirios img {
-    width: 30%;
-    display: block; }
+    width: 40%;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .subtitulo {
     padding-top: 6rem; }
   #sobreNosotros p {
