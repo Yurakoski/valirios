@@ -27,8 +27,7 @@ h2 {
   color: white; }
 
 h3, h4 {
-  color: white;
-  padding-bottom: 1rem; }
+  color: white; }
 
 .subtitulo {
   padding-top: 6rem;
@@ -209,7 +208,7 @@ ul {
   #inicio {
     height: 100vh; }
   .nombre img {
-    width: 80%;
+    width: 85%;
     padding-top: 6rem;
     padding-bottom: 2rem; }
   .integrantesFoto img {
@@ -226,11 +225,12 @@ ul {
     padding-top: 5rem; }
   form {
     width: 100%; }
-    form .formulario .formulario__item {
-      width: 80%; }
-    form .formulario .formulario__item--mensaje {
-      width: 80%;
-      padding-bottom: 2rem; }
+  .formulario .formulario__item {
+    width: 80%; }
+  .formulario .formulario__item--mensaje {
+    width: 80%;
+    padding-bottom: 2rem;
+    height: 7rem; }
   .botonEnviar {
     width: 80%; }
   .logoInstagram a {

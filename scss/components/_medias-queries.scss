@@ -17,7 +17,7 @@
         height: 100vh;
     }
     .nombre img{
-        width: 80%;
+        width: 85%;
         padding-top: 6rem;
         padding-bottom: 2rem;
     }
@@ -45,15 +45,17 @@
     form{
         width: 100%;
         
-        .formulario{
+    }
+    
+    .formulario{
             .formulario__item {
                 width: 80%;
             }
             .formulario__item--mensaje{
                 width: 80%;
                 padding-bottom: 2rem;
+                height: 7rem;
             }     
-        }
     }
 
     .botonEnviar{
