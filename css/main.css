@@ -103,11 +103,10 @@ header .navbar {
 .menu {
   display: flex;
   justify-content: center; }
-
-.menu a {
-  position: relative;
-  display: block;
-  padding: 5px; }
+  .menu a {
+    position: relative;
+    display: block;
+    padding: 5px; }
 
 .menu[data-animation="center"] a::before {
   transform-origin: center; }
@@ -169,8 +168,8 @@ form {
   width: 100%;
   font-size: 1rem;
   height: 3rem;
-  background-color: #7c7c7c;
-  margin-bottom: 1rem;
+  background-color: #afafaf;
+  margin-bottom: 3rem;
   border-radius: 0.8rem; }
   .botonEnviar:hover {
     background-color: #717181; }
@@ -179,27 +178,24 @@ footer {
   background-color: #222222;
   width: 100%;
   margin-top: auto; }
-
-.piePagina {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 5rem 2rem 5rem; }
+  footer .piePagina {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem 2rem 5rem; }
+    footer .piePagina .logo img {
+      border-radius: 5rem; }
+    footer .piePagina .listaFooter {
+      text-decoration: none;
+      color: white;
+      list-style: none; }
+      footer .piePagina .listaFooter li {
+        padding-bottom: 1rem; }
+        footer .piePagina .listaFooter li a {
+          color: white;
+          text-decoration: none; }
 
 ul {
   margin-bottom: 0; }
-
-.logo img {
-  border-radius: 5rem; }
-
-.listaFooter {
-  text-decoration: none;
-  color: white;
-  list-style: none; }
-  .listaFooter li {
-    padding-bottom: 1rem; }
-    .listaFooter li a {
-      color: white;
-      text-decoration: none; }
 
 @media only screen and (max-width: 768px) {
   #videoInicio {
@@ -231,11 +227,11 @@ ul {
     padding-top: 5rem; }
   form {
     width: 100%; }
-  .formulario .formulario__item {
-    width: 80%; }
-  .formulario .formulario__item--mensaje {
-    width: 80%;
-    padding-bottom: 2rem; }
+    form .formulario .formulario__item {
+      width: 80%; }
+    form .formulario .formulario__item--mensaje {
+      width: 80%;
+      padding-bottom: 2rem; }
   .botonEnviar {
     width: 80%; }
   .logoInstagram a {
@@ -243,5 +239,6 @@ ul {
   ol, ul {
     padding-left: 0;
     padding-top: 2rem; }
-  .piePagina {
-    flex-direction: column; } }
+  footer .piePagina {
+    flex-direction: column;
+    padding: 1rem; } }

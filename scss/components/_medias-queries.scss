@@ -45,16 +45,16 @@
 
     form{
         width: 100%;
-    }
-
-    .formulario{
-        .formulario__item {
-            width: 80%;
+        
+        .formulario{
+            .formulario__item {
+                width: 80%;
+            }
+            .formulario__item--mensaje{
+                width: 80%;
+                padding-bottom: 2rem;
+            }     
         }
-        .formulario__item--mensaje{
-            width: 80%;
-            padding-bottom: 2rem;
-        }     
     }
 
     .botonEnviar{
@@ -69,9 +69,10 @@
         padding-left: 0;
         padding-top: 2rem;
     }
-    .piePagina{
-        flex-direction: column;
+    footer{
+        .piePagina{
+          flex-direction: column;
+          padding: 1rem;
+        }
     }
-
-    
 }

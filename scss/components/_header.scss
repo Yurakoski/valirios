@@ -2,7 +2,6 @@ header .navbar{
   background-color: rgba(0, 0, 0, 0.726);
 }
 
-
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -72,13 +71,13 @@ header .navbar{
   .menu {
     display: flex;
     justify-content: center;
+       & a {
+          position: relative;
+          display: block;
+          padding: 5px;
+    }
   }
 
-  .menu a {
-    position: relative;
-    display: block;
-    padding: 5px;
-  }
   .menu[data-animation="center"] a::before {
     transform-origin: center;
   }
