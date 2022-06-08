@@ -28,12 +28,12 @@
     }
 
     .subtitulo{
-        padding-top: 5rem;
+        padding-top: 6rem;
     }
 
     #sobreNosotros p{
         font-size: 1rem;
-        margin-top: 2rem;
+        margin-top: 5rem;
         padding: 1rem 0.4rem 1rem 0.4rem;
         width: 85%;
     }
@@ -53,11 +53,25 @@
         }
         .formulario__item--mensaje{
             width: 80%;
-            padding-bottom: 5rem;
+            padding-bottom: 2rem;
         }     
     }
 
     .botonEnviar{
         width: 80%;
     }
+
+    .logoInstagram a{
+        font-size: 1.5rem;
+    }
+
+    ol, ul {
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+    .piePagina{
+        flex-direction: column;
+    }
+
+    
 }
